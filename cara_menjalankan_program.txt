@@ -1,0 +1,15 @@
+1. clone Project
+ - git clone https://github.com/ahmadbrader/test-tujuh-sembilan.git
+
+2. copy isi .env.example lalu buat file baru .env
+- cp .env.example .env
+
+3.setting database sesuai database yang di inginkan
+
+4. buka cmd di dalam project lalu ketikan
+- composer install
+- php artisan key:generate
+- php artisan migrate
+- php artisan serve
+
+5. buka http://127.0.0.1:8000/
